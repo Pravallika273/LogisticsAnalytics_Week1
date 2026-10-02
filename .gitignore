@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Large raw datasets
+data/raw/*.csv
+data/raw/*.zip
+
+# Large generated datasets
+data/processed/logistics_analysis_ready.csv
+
+# OS files
+.DS_Store
+Thumbs.db
